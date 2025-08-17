@@ -1,0 +1,36 @@
+---
+title: Complex Concepts, Made Simple
+description: minimal-debug
+template: splash
+hero:
+  tagline: minimal-debug aims to provide clear and concise explanations of cutting-edge deep learning topics.  
+#   image:
+#     file: ../../assets/houston.webp
+  actions:
+    - text: Explained Papers
+      link: /papers/overview/
+      icon: right-arrow
+    - text: About
+      link: /about/about/
+      icon: right-arrow
+      variant: secondary
+---
+
+import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
+
+## Content
+
+<CardGrid >
+	<Card title="Video Explanations" icon="open-book" >
+		[Explanation videos](/papers/overview) of deep-learning papers aim to make complex concepts more accessible and easier to understand.
+	</Card>
+	<Card title="Code Implementations" icon="github" >
+	The explained papers are paired with a clear and simple [codebase](/papers/overview) to help understand all aspects of the work.
+	</Card>
+	<Card title="Deep Learning Projects" icon="rocket" >
+	Different [deep learning projects](/projects/mnist_cpp) are provided, where foundamental concepts are applied to real world applications.
+	</Card>
+	<Card title="Support and Consulting" icon="puzzle" >
+	Need help understanding or implementing a paper, working with an existing codebase, or with your next conference paper? [Contact us](/about/about).
+	</Card>
+</CardGrid>

@@ -1,8 +1,7 @@
 {
-  "name": "@example/minimal",
+  "name": "tmp",
   "type": "module",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.3.1"
+    "@astrojs/starlight": "^0.35.2",
+    "astro": "^5.6.1",
+    "astro-embed": "^0.9.0",
+    "sharp": "^0.34.2"
   }
 }
